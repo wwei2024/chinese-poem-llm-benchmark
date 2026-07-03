@@ -1,0 +1,14 @@
+models:
+  qwen_7b_4bit:
+    repo: mlx-community/Qwen2.5-7B-Instruct-4bit
+    family: qwen
+    max_tokens: 256
+    temperature: 0.2
+    top_p: 0.9
+
+  gemma4_12b_4bit:
+    repo: mlx-community/gemma-4-12B-it-4bit
+    family: gemma
+    max_tokens: 256
+    temperature: 0.2
+    top_p: 0.9

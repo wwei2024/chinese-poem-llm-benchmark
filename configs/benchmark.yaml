@@ -1,0 +1,12 @@
+data:
+  path: data/sample/poems_sample.csv
+  source_col: source
+  target_col: target
+  split_col: split
+  test_split_name: test
+  max_examples: null
+
+output:
+  predictions: results/benchmark_outputs.csv
+  summary: results/benchmark_summary.csv
+  human_sheet: results/human_eval_sheet.csv
